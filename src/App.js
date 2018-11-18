@@ -3,6 +3,7 @@ import Header from './components/Header'
 import './App.css'
 import Description from './components/Description';
 import Community from './components/Community';
+import Units from './components/Units';
 
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
         <Header />
         <Description />
         <Community />
+        <Units />
       </div>
     );
   }
