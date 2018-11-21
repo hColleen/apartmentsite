@@ -4,6 +4,7 @@ import './App.css'
 import Description from './components/Description';
 import Community from './components/Community';
 import Units from './components/Units';
+import Menu from './components/Menu';
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Menu />
         <Description />
         <Community />
         <Units />
