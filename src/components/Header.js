@@ -6,6 +6,7 @@ export default class Header extends Component {
         return (
             <div>
                 <img
+                    className = "headerImage"
                     src={headerImage}
                     alt="View of Community"
                 />

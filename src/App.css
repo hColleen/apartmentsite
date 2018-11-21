@@ -5,11 +5,20 @@
   text-align: center;
 }
 
-
 .communityName{
   font-family: 'Great Vibes', cursive;
 }
 
 p{
   font-family: 'Oswald', sans-serif;
+}
+
+.headerImage{
+  width: 100vw;
+  height: 40vh;
+}
+
+.communityName{
+  margin-top: -150px;
+  font-size: 4em;
 }
