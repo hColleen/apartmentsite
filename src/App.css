@@ -30,3 +30,24 @@
 nav{
   font-size: 1.5em;
 }
+
+.communityDescription{
+  width: 80vw;
+  margin: auto;
+  font-size: 1.25em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  }
+
+  @media screen and (max-width: 767px){
+    .communityDescription{
+      flex-direction: column;
+    }
+  }
+
+  .communityImage{
+    width: 40vw;
+    margin: auto;
+    border-radius: 50%;
+  }
