@@ -11,27 +11,27 @@ const photos = [
         height: 3
     },
     {
-        src: "/src/components/images/livingroom1.jpg",
+        src: "./images/livingroom1.jpg",
         width: 1,
         height: 1
     },
     {
-        src: "/images/livingroom2.jpg",
+        src: "./images/livingroom2.jpg",
         width: 3,
         height: 4
     },
     {
-        src: "/images/livingroom3.jpg",
+        src: "./images/livingroom3.jpg",
         width: 3,
         height: 4
     },
     {
-        src: "/images/bedroom.jpg",
+        src: "./images/bedroom.jpg",
         width: 3,
         height: 4
     },
     {
-        src: "/images/bedroom1.jpg",
+        src: "./images/bedroom1.jpg",
         width: 4,
         height: 3
     }
