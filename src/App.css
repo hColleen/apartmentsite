@@ -1,16 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 .App {
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .communityName{
-  font-family: 'Great Vibes', cursive;
-}
-
-p{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Sacramento', cursive;
 }
 
 .headerImage{
@@ -19,13 +16,17 @@ p{
 }
 
 .communityName{
-  margin-top: -150px;
+  margin-top: -190px;
   font-size: 6em;
   font-weight: 900;
-  color: #f30;
+  color: #0086b3;
   text-shadow:
-  -1px -1px 0 #000,  
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-    1px 1px 0 #000;
+  -1px -1px 0 #ccc,  
+   1px -1px 0 #ccc,
+   -1px 1px 0 #ccc,
+    1px 1px 0 #ccc;
+}
+
+nav{
+  font-size: 1.5em;
 }
