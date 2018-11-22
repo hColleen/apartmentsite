@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Balcony from '../images/balcony.jpg'
+import Balcony from './images/balcony.jpg'
 
 export default class Description extends Component {
     render() {

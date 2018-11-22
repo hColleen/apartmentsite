@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Map from '../images/map.jpg'
+import Map from './images/map.jpg'
 
 export default class Community extends Component {
     render() {

@@ -12,7 +12,7 @@
 }
 
 .header{
-  background-image: url(./images/header.jpg);
+  background-image: url(./components/images/header.jpg);
   width: 100vw;
   height: 20em;
 }
