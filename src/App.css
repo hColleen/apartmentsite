@@ -6,7 +6,7 @@
   font-family: 'Oswald', sans-serif;
 }
 
-.communityHeading,
+h2,
 .communityName{
   font-family: 'Sacramento', cursive;
 }
@@ -61,12 +61,17 @@
     border-radius: 50%;
   }
 
-  .communityHeading{
+  h2{
     font-size: 5em;
     font-weight: 600;
   }
 
   .map{
     width: 30vw;
+    margin: auto;
+  }
+
+  .unitDescriptions{
+    width: 90vw;
     margin: auto;
   }

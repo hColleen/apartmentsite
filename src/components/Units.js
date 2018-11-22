@@ -2,36 +2,35 @@
 import React, { Component } from 'react'
 import Gallery from 'react-photo-gallery'
 import Lightbox from 'react-images'
-import Livingroom from './images/livingroom.jpg'
 
 const photos = [
     {
-        src: { Livingroom },
+        src: "https://source.unsplash.com/dO3qTKxwik0/800x599",
         width: 4,
         height: 3
     },
     {
-        src: "./images/livingroom1.jpg",
+        src: "https://source.unsplash.com/oTJ92KUXHls/800x599",
         width: 1,
         height: 1
     },
     {
-        src: "./images/livingroom2.jpg",
+        src: "https://source.unsplash.com/LIx9GfMB6ZM/800x599",
         width: 3,
         height: 4
     },
     {
-        src: "./images/livingroom3.jpg",
+        src: "https://source.unsplash.com/6viJObrmnBw/800x599",
         width: 3,
         height: 4
     },
     {
-        src: "./images/bedroom.jpg",
+        src: "https://source.unsplash.com/GqbU78bdJFM/800x599",
         width: 3,
         height: 4
     },
     {
-        src: "./images/bedroom1.jpg",
+        src: "https://source.unsplash.com/6TY_WrJTwSI/800x599",
         width: 4,
         height: 3
     }
@@ -73,8 +72,10 @@ export default class Units extends Component {
 
     render() {
         return (
+            <div>
+                <h2>Dolore.</h2>
             <div className="unitDescriptions">
-                <p>Dolore. Sequi lorem and magni do or illum yet nesciunt. Unde aute modi. Reprehenderit. Voluptas. Aperiam si or ea tempora yet vitae so ratione vitae. Molestiae adipisci explicabo esse for officia for veritatis nostrum. Consequatur. Molestiae. Nesciunt odit but amet and sequi ab. Exercitation dolor yet in or accusantium. Odit id veritatis minima. Ipsum ea yet ex. Aliquid in. </p>
+                <p>Sequi lorem and magni do or illum yet nesciunt. Unde aute modi. Reprehenderit. Voluptas. Aperiam si or ea tempora yet vitae so ratione vitae. Molestiae adipisci explicabo esse for officia for veritatis nostrum. Consequatur. Molestiae. Nesciunt odit but amet and sequi ab. Exercitation dolor yet in or accusantium. Odit id veritatis minima. Ipsum ea yet ex. Aliquid in. </p>
                 <Gallery photos={photos} onClick={this.openLightbox} />
                 <Lightbox images={photos}
                     onClose={this.closeLightbox}
@@ -83,6 +84,7 @@ export default class Units extends Component {
                     currentImage={this.state.currentImage}
                     isOpen={this.state.lightboxIsOpen}
                 />
+            </div>
             </div>
         )
     }
