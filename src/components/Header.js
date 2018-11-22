@@ -1,15 +1,10 @@
 import React, { Component } from 'react'
-import headerImage from '../images/header.jpg'
+import Menu from './Menu'
 
 export default class Header extends Component {
     render() {
         return (
-            <div>
-                <img
-                    className = "headerImage"
-                    src={headerImage}
-                    alt="View of Community"
-                />
+            <div className = "header">
                 <h1 className="communityName">Totam</h1>
             </div>
         )
