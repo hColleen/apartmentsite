@@ -7,32 +7,32 @@ const photos = [
     {
         src: "https://source.unsplash.com/dO3qTKxwik0/800x599",
         width: 4,
-        height: 3
+        height: 2
     },
     {
         src: "https://source.unsplash.com/oTJ92KUXHls/800x599",
-        width: 1,
-        height: 1
+        width: 3,
+        height: 2
     },
     {
         src: "https://source.unsplash.com/LIx9GfMB6ZM/800x599",
         width: 3,
-        height: 4
+        height: 2
     },
     {
         src: "https://source.unsplash.com/6viJObrmnBw/800x599",
         width: 3,
-        height: 4
+        height: 2
     },
     {
         src: "https://source.unsplash.com/GqbU78bdJFM/800x599",
         width: 3,
-        height: 4
+        height: 2
     },
     {
         src: "https://source.unsplash.com/6TY_WrJTwSI/800x599",
         width: 4,
-        height: 3
+        height: 2
     }
 ]
 

@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Sacramento');
 
 .App {
-  text-align: center;
   font-family: 'Oswald', sans-serif;
 }
 
 h2,
 .communityName{
   font-family: 'Sacramento', cursive;
+  text-align: center;
 }
 
 .header{
@@ -17,7 +17,7 @@ h2,
 }
 
 .communityName{
-  padding-top: 100px;
+  padding-top: 125px;
   font-size: 6em;
   font-weight: 900;
   color: #0086b3;
@@ -28,14 +28,9 @@ h2,
     1px 1px 0 #ccc;
 }
 
-nav{
-  width: 100vw;
-}
-
 .navbar-brand{
   font-family: 'Sacramento', cursive;
   font-size: 2em;
-  padding-right: 75px;
 }
 
 .community,
@@ -53,6 +48,7 @@ nav{
   h2{
     font-size: 5em;
     font-weight: 600;
+    text-align: center;
   }
 
   .map{
@@ -64,24 +60,11 @@ nav{
     margin: auto;
   }
 
-  button{
-    padding-right: 15px;
-    margin-left: 15px;
-  }
-
-  .nav-item{
-    margin-right: 125px;
-  }
-
   .bottomButtons{
-    margin-left: 25vw;
     font-size: 2em;
     margin-top: 15px;
     margin-right: 0px;
-  }
-
-  .contact{
-    margin-right: 25vw;
+    justify-content: center;
   }
 
   .contact,
@@ -90,9 +73,12 @@ nav{
     border-radius: 15px;
     padding: 10px;
     cursor: pointer;
+    margin: 15px;
   }
 
   footer{
     font-family: 'Sacramento', cursive;
     font-size: .75em;
+    padding: 15px;
+    text-align: center;
   }
