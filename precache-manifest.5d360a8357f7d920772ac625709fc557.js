@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/apartmentsite/static/js/runtime~main.a0199e8a.js"
   },
   {
-    "revision": "2ddb6c4561efe39fc0d1",
-    "url": "/apartmentsite/static/js/main.2ddb6c45.chunk.js"
+    "revision": "a1955583d6e2bbd7cfa4",
+    "url": "/apartmentsite/static/js/main.a1955583.chunk.js"
   },
   {
     "revision": "b577eab8722e4353bbc2",
     "url": "/apartmentsite/static/js/1.b577eab8.chunk.js"
   },
   {
-    "revision": "2ddb6c4561efe39fc0d1",
-    "url": "/apartmentsite/static/css/main.f6e13a36.chunk.css"
+    "revision": "a1955583d6e2bbd7cfa4",
+    "url": "/apartmentsite/static/css/main.ad353605.chunk.css"
   },
   {
-    "revision": "e46d2ce1e5259482fd12712786f62044",
+    "revision": "c78cfdb43a0badaafd7e0ab8e52de5be",
     "url": "/apartmentsite/index.html"
   }
 ];
