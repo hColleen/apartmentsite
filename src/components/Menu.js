@@ -21,9 +21,9 @@ export default class Menu extends Component {
                         </li>
                     </ul>
                     <form className="form-inline">
-                    <button className="btn btn-outline-light" type="button">Contact Us</button>
-                    <button className="btn btn-outline-light" type="button">Apply</button>
-                </form>
+                        <button className="btn btn-outline-light" type="button">Contact Us</button>
+                        <button className="btn btn-outline-light" type="button">Apply</button>
+                    </form>
                 </div>
             </nav>
         )

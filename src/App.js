@@ -5,6 +5,7 @@ import Description from './components/Description'
 import Community from './components/Community'
 import Units from './components/Units'
 import Menu from './components/Menu'
+import Footer from './components/Footer';
 
 
 class App extends Component {
@@ -16,6 +17,7 @@ class App extends Component {
         <Description />
         <Community />
         <Units />
+        <Footer />
       </div>
     );
   }

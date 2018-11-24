@@ -13,7 +13,6 @@ h2,
 
 .header{
   background-image: url(./components/images/header.jpg);
-  width: 100vw;
   height: 20em;
 }
 
@@ -29,6 +28,9 @@ h2,
     1px 1px 0 #ccc;
 }
 
+nav{
+  width: 100vw;
+}
 
 .navbar-brand{
   font-family: 'Sacramento', cursive;
@@ -64,9 +66,28 @@ h2,
 
   button{
     padding-right: 15px;
-    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .nav-item{
     margin-right: 125px;
+  }
+
+  .bottomButtons{
+    margin-left: 25vw;
+    font-size: 2em;
+    margin-top: 15px;
+    margin-right: 0px;
+  }
+
+  .contact{
+    margin-right: 25vw;
+  }
+
+  .contact,
+  .apply{
+    border: 1px solid rgb(0, 134, 179);
+    border-radius: 15px;
+    padding: 10px;
+    cursor: pointer;
   }
