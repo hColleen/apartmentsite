@@ -33,6 +33,7 @@ h2,
 .navbar-brand{
   font-family: 'Sacramento', cursive;
   font-size: 2em;
+  padding-right: 75px;
 }
 
 .community,
@@ -41,23 +42,10 @@ h2,
   width: 80vw;
   margin: auto;
   font-size: 1.25em;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  }
-
-  @media screen and (max-width: 767px){
-    .community, .communityDescription{
-      flex-direction: column;
-    }
-    .map, .communityImage{
-      width: 50vw;
-    }
   }
 
   .communityImage{
-    width: 40vw;
-    margin: auto;
+    width: 100%;
   }
 
   h2{
@@ -66,11 +54,19 @@ h2,
   }
 
   .map{
-    width: 30vw;
-    margin: auto;
+    width: 100%;
   }
 
   .unitDescriptions{
     width: 90vw;
     margin: auto;
+  }
+
+  button{
+    padding-right: 15px;
+    margin-right: 15px;
+  }
+
+  .nav-item{
+    margin-right: 125px;
   }
