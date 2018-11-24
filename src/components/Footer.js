@@ -12,6 +12,7 @@ export default class Footer extends Component {
                         Apply
                 </div>
                 </div>
+                <footer>hColleen Designs, 2018</footer>
             </div>
         )
     }

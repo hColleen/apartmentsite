@@ -91,3 +91,8 @@ nav{
     padding: 10px;
     cursor: pointer;
   }
+
+  footer{
+    font-family: 'Sacramento', cursive;
+    font-size: .75em;
+  }
