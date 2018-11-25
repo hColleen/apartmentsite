@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Menu extends Component {
     render() {
         return (
-            <nav className="navbar fixed-top pb-0 navbar-expand-lg navbar-dark" style={{ backgroundColor: `rgba(0, 134, 179, 0.9)` }}>
+            <nav className="navbar fixed-top pb-0 navbar-expand-lg navbar-dark" style={{ backgroundColor: `rgba(0, 134, 179, 0.7)` }}>
                 <a className="navbar-brand mr-5 h1" href="#">Totam</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -11,7 +11,7 @@ export default class Menu extends Component {
                 <div className="collapse navbar-collapse" id="navbarText">
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item mr-5">
-                            <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
+                            <a className="nav-link active" href="/">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item mr-5">
                             <a className="nav-link" href="#">Amenities</a>
